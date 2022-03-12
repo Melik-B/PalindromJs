@@ -1,0 +1,62 @@
+﻿body {
+    background-image: url(../Images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    font-family: Microsoft Sans Serif;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 320%;
+}
+
+.textbox {
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    border-bottom-color: white;
+    width: 15%;
+    font-size: 150%;
+    color: white;
+}
+
+.textbox-container {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.btn-container {
+    text-align: center;
+    padding-top: 2%;
+}
+
+.test-btn {
+    background-color: #8BDB81;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 150%;
+    height: 40px;
+    width: 130px;
+    text-shadow: 0 0.10em 0.10em rgba(0,0,0,0.35);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: 0.5s;
+}
+
+    .test-btn:hover {
+        background-color: #79cc6e;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        color: white;
+        font-size: 165%;
+        height: 45px;
+        width: 145px;
+        text-shadow: 0 0.10em 0.10em rgba(0,0,0,0.35);
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
